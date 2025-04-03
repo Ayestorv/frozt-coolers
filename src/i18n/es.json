@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "Frozt Coolers - Neveras y Termos Premium",
+    "description": "Experimenta neveras y termos premium con superior retención de hielo y durabilidad. Mantente frío donde sea con Frozt Coolers."
+  },
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Mantente Frío Donde Sea",
+    "subtitle": "Neveras y termos premium diseñados para la aventura",
+    "cta": "Explorar Productos",
+    "whatsapp": "Chatea por WhatsApp"
+  },
+  "products": {
+    "title": "Nuestros Productos Premium",
+    "subtitle": "Diseñados para durabilidad y rendimiento",
+    "coolers": {
+      "title": "Neveras Premium",
+      "description": "Construidas para mantener el hielo durante días, nuestras neveras están diseñadas para las aventuras más duras.",
+      "cta": "Ver Neveras"
+    },
+    "thermoses": {
+      "title": "Termos Aislados",
+      "description": "Mantén tus bebidas calientes o frías durante horas con nuestros termos aislados premium.",
+      "cta": "Ver Termos"
+    },
+    "addToCart": "Añadir al Carrito",
+    "viewProduct": "Ver Detalles",
+    "backToHome": "Volver al Inicio",
+    "backToThermoses": "Volver a Termos",
+    "thermosesPage": {
+      "thermosModels": "Modelos de Termos",
+      "accessories": "Accesorios"
+    },
+    "coolersPage": {
+      "coolerModels": "Modelos de Neveras",
+      "accessories": "Accesorios"
+    }
+  },
+  "features": {
+    "title": "¿Por Qué Elegir Frozt?",
+    "subtitle": "Diseñado con excelencia en mente",
+    "list": [
+      {
+        "title": "Retención de Hielo Prolongada",
+        "description": "Mantén el hielo hasta por 7 días con nuestra tecnología de aislamiento superior."
+      },
+      {
+        "title": "Diseño Resistente",
+        "description": "Construido para soportar condiciones difíciles y años de uso."
+      },
+      {
+        "title": "Libre de BPA",
+        "description": "Todos los productos están hechos con materiales libres de BPA para tu seguridad."
+      },
+      {
+        "title": "Acabado Premium",
+        "description": "Exterior elegante y resistente a los arañazos, construido para el uso en el mundo real."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Clientes",
+    "list": [
+      {
+        "name": "Miguel T.",
+        "text": "Mi nevera Frozt mantuvo el hielo sólido durante toda nuestra excursión de 5 días. ¡Rendimiento impresionante!"
+      },
+      {
+        "name": "Sara J.",
+        "text": "El termo es increíble - mi café se mantiene caliente todo el día durante las excursiones."
+      },
+      {
+        "name": "David R.",
+        "text": "La mejor nevera que he tenido. Vale cada centavo por su calidad y rendimiento."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Nos encantaría saber de ti",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje",
+      "success": "¡Mensaje enviado con éxito!",
+      "error": "Hubo un error al enviar tu mensaje. Por favor, intenta de nuevo."
+    }
+  },
+  "footer": {
+    "rights": "© 2024 Frozt Coolers. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  },
+  "whatsapp": {
+    "tooltip": "Chatea con nosotros en WhatsApp"
+  }
+} 

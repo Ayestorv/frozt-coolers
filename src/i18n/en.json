@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "Frozt Coolers - Premium Coolers & Thermoses",
+    "description": "Experience premium coolers and thermoses with superior ice retention and durability. Stay cool anywhere with Frozt Coolers."
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Stay Cool Anywhere",
+    "subtitle": "Premium coolers and thermoses designed for adventure",
+    "cta": "Explore Products",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "products": {
+    "title": "Our Premium Products",
+    "subtitle": "Crafted for durability and performance",
+    "coolers": {
+      "title": "Premium Coolers",
+      "description": "Built to keep ice for days, our coolers are designed for the toughest adventures.",
+      "cta": "View Coolers"
+    },
+    "thermoses": {
+      "title": "Insulated Thermoses",
+      "description": "Keep your drinks hot or cold for hours with our premium insulated thermoses.",
+      "cta": "View Thermoses"
+    },
+    "addToCart": "Add to Cart",
+    "viewProduct": "View Details",
+    "backToHome": "Back to Home",
+    "backToThermoses": "Back to Thermoses",
+    "thermosesPage": {
+      "thermosModels": "Thermos Models",
+      "accessories": "Accessories"
+    },
+    "coolersPage": {
+      "coolerModels": "Cooler Models",
+      "accessories": "Accessories"
+    }
+  },
+  "features": {
+    "title": "Why Choose Frozt?",
+    "subtitle": "Designed with excellence in mind",
+    "list": [
+      {
+        "title": "Long Ice Retention",
+        "description": "Keep ice for up to 7 days with our superior insulation technology."
+      },
+      {
+        "title": "Durable Design",
+        "description": "Built to withstand tough conditions and years of use."
+      },
+      {
+        "title": "BPA-Free",
+        "description": "All products are made with BPA-free materials for your safety."
+      },
+      {
+        "title": "Premium Finish",
+        "description": "Elegant, scratch-resistant exterior built for real-world use."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "list": [
+      {
+        "name": "Michael T.",
+        "text": "My Frozt cooler kept ice solid for our entire 5-day camping trip. Impressive performance!"
+      },
+      {
+        "name": "Sarah J.",
+        "text": "The thermos is amazing - my coffee stays hot all day during hiking trips."
+      },
+      {
+        "name": "David R.",
+        "text": "Best cooler I've ever owned. Worth every penny for the quality and performance."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "We'd love to hear from you",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "There was an error sending your message. Please try again."
+    }
+  },
+  "footer": {
+    "rights": "© 2024 Frozt Coolers. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "whatsapp": {
+    "tooltip": "Chat with us on WhatsApp"
+  }
+} 

@@ -1,26 +1,74 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0f172a; /* Dark blue background */
+  --foreground: #f1f5f9; /* Light text */
+  --primary: #0ea5e9;
+  --primary-dark: #0284c7;
+  --secondary: #1e293b;
+  --accent: #0c4a6e;
+  --navy: #0f172a;
+  --navy-dark: #0a101c;
+  --navy-light: #1e293b;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-navy: var(--navy);
+  --color-navy-dark: var(--navy-dark);
+  --color-navy-light: var(--navy-light);
+  --font-sans: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Custom glassmorphism utility classes */
+.glassmorphism {
+  @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-lg;
+}
+
+.glassmorphism-dark {
+  @apply bg-black/20 backdrop-blur-md border border-white/10 shadow-lg;
+}
+
+.glassmorphism-navy {
+  @apply bg-navy/70 backdrop-blur-md border border-navy-light/20 shadow-lg;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Extended Tailwind colors */
+@layer base {
+  :root {
+    --color-navy-900: 15 23 42;
+    --color-navy-800: 30 41 59;
+    --color-navy-700: 51 65 85;
+    --color-navy-600: 71 85 105;
+    --color-navy-500: 100 116 139;
+    --color-navy-400: 148 163 184;
+    --color-navy-300: 203 213 225;
+    --color-navy-200: 226 232 240;
+    --color-navy-100: 241 245 249;
+    --color-navy-50: 248 250 252;
+  }
 }
