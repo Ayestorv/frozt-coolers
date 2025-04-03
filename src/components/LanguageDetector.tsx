@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from 'react';
-import { Locale, locales } from '../i18n';
+import { locales } from '../i18n';
 
 export const LanguageDetector = () => {
   useEffect(() => {

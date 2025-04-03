@@ -1,6 +1,6 @@
 "use client";
 
-import { usePathname, useSearchParams } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import en from './en.json';
 import es from './es.json';
@@ -20,7 +20,6 @@ export const translations = {
 export type TranslationKeys = typeof en;
 
 export const useTranslation = () => {
-  const pathname = usePathname();
   const searchParams = useSearchParams();
   const [locale, setLocale] = useState<Locale>('en');
   
@@ -49,16 +48,16 @@ export const useTranslation = () => {
     setLocale('en');
   }, [searchParams]);
   
-  const t = (keyPath: string) => {
+  const t = (keyPath: string): string => {
     const keys = keyPath.split('.');
-    let value: any = translations[locale];
+    let value: unknown = translations[locale];
     
     for (const key of keys) {
       if (value === undefined) return keyPath;
-      value = value[key];
+      value = (value as Record<string, unknown>)[key];
     }
     
-    return value || keyPath;
+    return (typeof value === 'string' ? value : keyPath);
   };
   
   const changeLocale = (newLocale: Locale) => {

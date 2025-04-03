@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
@@ -156,7 +155,7 @@ export default function ThermosProductPage() {
                     </button>
                     
                     <Link 
-                      href={`https://wa.me/15551234567?text=I'm%20interested%20in%20the%20${encodeURIComponent(product.model)}%20thermos`}
+                      href={`https://wa.me/15551234567?text=I%27m%20interested%20in%20the%20${encodeURIComponent(product.model)}%20thermos`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex-1 inline-flex items-center justify-center py-3 px-6 bg-green-600/80 hover:bg-green-500/80 text-white font-medium rounded-lg transition-all backdrop-blur-sm border border-green-400/20 shadow-sm"

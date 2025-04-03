@@ -51,7 +51,7 @@ export default function CoolersPage() {
                   Coming Soon!
                 </h2>
                 <p className="text-gray-200 mb-6">
-                  We're working hard to bring you our latest collection of premium coolers. 
+                  We&apos;re working hard to bring you our latest collection of premium coolers. 
                   Please check back soon!
                 </p>
                 <Link 
